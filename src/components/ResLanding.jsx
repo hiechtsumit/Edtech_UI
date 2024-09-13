@@ -21,7 +21,7 @@ const ELandingPage = () => {
         <div
           className={`${
             isMenuOpen ? "block" : "hidden"
-          } md:flex md:items-center w-full md:w-auto  md:mt-0 space-y-2 md:space-y-0 md:space-x-6`}
+          } font-semibold md:flex md:items-center w-full md:w-auto  md:mt-0 space-y-2 md:space-y-0 md:space-x-6`}
         >
           <a href="#" className="block md:inline ">
             Home
