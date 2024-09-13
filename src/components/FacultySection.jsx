@@ -1,17 +1,21 @@
-import React from 'react';
-import { Monitor, Telescope, ChevronRight } from 'lucide-react';
+import React from "react";
+import { Monitor, Telescope, ChevronRight } from "lucide-react";
 
 const ApprodablePackages = () => {
   return (
     <div className="container px-4 py-8 mt-20 mb-20 flex flex-col items-center md:flex-row">
       <div className="mb-8">
         <div className="w-16 h-1 bg-red-brown mb-4"></div>
-        <h2 className="text-3xl font-bold text-black-blue mb-4">Approdable Packages</h2>
+        <h2 className="text-3xl font-bold text-black-blue mb-4">
+          Approdable Packages
+        </h2>
         <p className="mb-4">
-          Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics
+          Problems trying to resolve the conflict between the two major realms
+          of Classical physics: Newtonian mechanics
         </p>
         <button className="text-green-white flex font-semibold items-center hover:translate-x-5">
-          Learn More <ChevronRight className="ml-2 transition duration-300" size={20} />
+          Learn More{" "}
+          <ChevronRight className="ml-2 transition duration-300" size={20} />
         </button>
       </div>
 
